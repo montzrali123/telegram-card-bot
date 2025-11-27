@@ -5,5 +5,8 @@ services:
     buildCommand: pip install -r requirements.txt
     startCommand: python bot.py
     envVars:
-      - key: PYTHON_VERSION
-        value: 3.11.0
+      - key: BOT_TOKEN
+        # يمكنك حذف القيمة هنا وحفظ التوكن كمتغير بيئة في Render Dashboard
+        value: 8511109903:AAGbRv53WwyoerY4-0v-gmObGXQvJYRYNdU
+      - key: OWNER_ID
+        value: 5056045687
