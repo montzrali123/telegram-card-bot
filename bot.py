@@ -18,7 +18,7 @@ logging.basicConfig(
 logger = logging.getLogger(__name__)
 
 # متغيرات البيئة (يجب ضبط BOT_TOKEN في البيئة)
-BOT_TOKEN = os.getenv("BOT_TOKEN")
+BOT_TOKEN = os.getenv("8511109903:AAGbRv53WwyoerY4-0v-gmObGXQvJYRYNdU")
 OWNER_ID = int(os.getenv("OWNER_ID", "5056045687"))
 
 if not BOT_TOKEN:
